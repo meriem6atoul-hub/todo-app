@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+    <h1>To-Do List App</h1>
+    <p id="counter"></p>
+  </header>
+
+  <div class="filters">
+    <button data-filter="all" class="active" >All</button>
+    <button data-filter="active">Active</button>
+    <button data-filter="completed">Completed</button>
+  </div>
+  
+  <main>
+
+    <form>
+      <input id="todo-input" type="text" placeholder="Add a task" />
+      <button  type="submit">Add</button>
+    </form>
+
+    <section>
+      <ul id="todo-list">
+        <li>
+          <span>Example task</span>
+          <button>Delete</button>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

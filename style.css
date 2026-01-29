@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+body {
+
+  background: #f5f7fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+#counter {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.filters button {
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  background: #ddd;
+  border-radius: 4px;
+}
+
+.filters button.active {
+  background: #333;
+  color: white;
+}
+
+main {
+  background: #ffffff;
+  width: 100%;
+  max-width: 500px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+form {
+
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #4c6ef5;
+}
+
+form button {
+  padding: 10px 15px;
+  border: none;
+  background: #4c6ef5;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+form button:hover {
+  opacity: 0.9;
+}
+
+form button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+ul {
+  list-style: none;
+
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  background: #f1f3f5;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+li:hover {
+  background: #e9ecef;
+}
+
+li input[type="checkbox"] {
+  cursor: pointer;
+}
+
+
+
+li span {
+  flex: 1;
+  color: #333;
+  margin-left: 10px;
+  cursor:pointer ;
+
+}
+
+li span:hover{
+  color: #4c6ef5;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+    opacity: 0.7;
+
+}
+
+li button {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+li button:hover {
+  opacity: 0.8;
+}
+
+.empty {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
+
+@media (max-width: 500px) {
+  body {
+    padding: 20px;
+  }
+
+  form {
+    flex-direction: column;
+  }
+
+}
