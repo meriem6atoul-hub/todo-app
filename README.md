@@ -16,4 +16,12 @@ Simple Todo App built with:
 [Click here to see the live app](https://meriem6atoul-hub.github.io/todo-app/
 )
 ## Screenshot
-![Todo App Screenshot](screenshot.png)
+
+### Main Page
+![Main Page](Screenshot1)
+
+### Adding Tasks
+![Adding Tasks](Screenshot2)
+
+### Completed Tasks
+![Completed Tasks](Screenshot3)
