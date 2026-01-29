@@ -18,10 +18,10 @@ Simple Todo App built with:
 ## Screenshot
 
 ### Main Page
-![Main Page](Screenshot1)
+![Main Page](Screenshot1.png)
 
 ### Adding Tasks
-![Adding Tasks](Screenshot2)
+![Adding Tasks](Screenshot2.png)
 
 ### Completed Tasks
-![Completed Tasks](Screenshot3)
+![Completed Tasks](Screenshot3.png)
